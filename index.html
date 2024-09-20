@@ -23,7 +23,7 @@
     </style>
   </head>
   <body>
-    <!-- <button id="btn1">click to store</button> <br /><br /> -->
+    <button id="btn1">click to store</button> <br /><br />
     <form action="" id="form1">
       <label for="txt1">User Name : </label>
       <input type="text" id="txt1" name="txt1" /> <br /><br />
@@ -36,17 +36,14 @@
     <p class="p1"></p>
     <p class="p1"></p>
     <script>
-      // let  BTN = document.getElementById("btn1");
-      // BTN.addEventListener("click",()=>{
-      //     localStorage.setItem("Name","B.Saikumar")
-      //     localStorage.setItem("Age","22")
-      //     localStorage.setItem("Address","Hyderabad")
-      //     localStorage.setItem("Job","trainee")
-
-      //     // para1[0].innerHTML=p1;
-      //     // para1[1].innerHTML=p2;
-
-      // })
+      let  BTN = document.getElementById("btn1");
+      BTN.addEventListener("click",()=>{
+          localStorage.setItem("Name","B.Saikumar")
+          localStorage.setItem("Age","22")
+          localStorage.setItem("Address","Hyderabad")
+          localStorage.setItem("Job","trainee")
+         
+      })
 
       let form = document.getElementById("form1");
       let submit1 = document.getElementById("sub");
